@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<!--
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/ClientSide/html.html to edit this template
+-->
+
+<style>
+    body {
+        background-color: #decffc;
+    }
+    
+    .bg_img_header {
+        background-image: url('assets/banner_bg.jpg');
+        background-size: cover;
+        height: 850px;
+        border-radius: 80px 60px;
+    }
+    
+    .bg_img_title {
+        color: #ff9966;
+        font-size: 150px;
+        font-weight: 800;
+        font-style: italic;
+        padding: 0px 45px 0px 15px;
+        text-shadow: 6px 6px 7px #e6005c;
+        font-family: 'Share Tech Mono', monospace;
+        background-image: 
+          repeating-linear-gradient(
+            45deg,
+            #85FFBD,
+            #85FFBD 10px,
+            #FFFB7D 10px,
+            #FFFB7D 20px 
+          );
+        position: absolute;
+        left: 27%;
+        top: 44%;
+        border-radius: 15px 50px 30px;
+    }
+    
+    .section1 {
+        border-radius: 80px 60px;
+        background: rgb(254,184,86);
+        background: linear-gradient(90deg, rgba(254,184,86,1) 0%, rgba(242,119,252,1) 100%);
+    }
+    
+    .section3 {
+        border-radius: 80px 60px;
+        background-image: background-color: #85FFBD;
+        background-image: linear-gradient(45deg, #85FFBD 0%, #FFFB7D 100%);    
+    }
+    
+    .section2 {
+        border-radius: 80px 60px;
+        background-color: #0093E9;
+        background-image: linear-gradient(160deg, #0093E9 0%, #80D0C7 100%);
+    }
+    
+    .section1_img {
+        box-shadow: 10px 10px 20px #3a1237;
+    }
+    
+    .section2_img {
+        box-shadow: 10px 10px 20px #004166;
+    }
+    
+    .section3_img {
+        box-shadow: 10px 10px 20px #004d24;
+    }
+    
+    .section_content {
+        font-family: 'BioRhyme', serif;
+        color: black;
+        text-decoration: none;
+        text-align: center;
+        font-size: 40px;
+        padding-left: 9%;
+        padding-right: 9%;
+        
+    }
+    
+    .section_title {
+        font-family: 'Lobster', cursive;
+        font-size: 80px;
+    }
+    
+    .seperator {
+        background-color: #1b0548;
+        border-radius: 100px;
+        padding: 18px;
+        margin: 10px 0px;
+    }
+    
+    a {
+        color: black;
+        text-decoration: none;
+    }
+    .navigator_tab {
+        text-decoration: none;
+        color: #e4e6e7;
+        padding: 0px 60px;
+        border-right: solid #e4e6e7 2px;
+        font-family: 'Share Tech Mono', monospace;
+        font-size:25px;
+    }
+    
+    .navigator {
+        position: fixed;
+        bottom: 15px;
+        right: 10%;
+        left: 10%;
+        background-color: #353739;   
+        padding: 15px 0px;
+        box-shadow: 5px 5px 7px black;
+        background-image: linear-gradient( 109.6deg,  rgba(87,23,82,1) 11.2%, rgba(21,12,20,1) 91.1% );
+    }
+    
+    
+</style>
+<html>
+    <head>
+        <title>Valentino</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=BioRhyme:wght@300;400;700&family=Share+Tech+Mono&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Anonymous+Pro:wght@700&family=Lobster&family=Playfair+Display:ital,wght@0,400;0,700;0,800;1,500&family=Share+Tech+Mono&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <div class="seperator"></div>
+        <div class="bg_img_header">
+            <span class="bg_img_title">Valentino</span>
+        </div>
+        <div class="seperator"></div>
+        <div class="section1">
+        <a href="men.html">
+            <table align="center">
+                <tr>
+                    <td style="padding: 30px 0px 30px 100px;">
+                        <img src="assets/men1.jpg" alt="men" width="380px" height="" class="section1_img">
+                    </td>
+                    <td class="section_content">
+                        <br><span class="section_title">Men</span><br><br>Inherit the best possible style<br><br><br>
+                    </td>
+                </tr>
+            </table>
+        </a>
+        </div>
+        <div class="seperator"></div>
+        <div class="section2">
+        <a href="dessert.html">
+            <table align="center">
+                <tr>
+                    <td style="padding: 30px 0px 30px 100px;">
+                        <img src="assets/bakery.jpg" alt="menu" width="500px" class="section2_img">
+                    </td>
+                    <td class="section_content">
+                        <br><span class="section_title">Dessert</span><br><br>Delighted With Sweetness<br><br><br>
+                    </td>
+                </tr>
+            </table>
+        </a>
+        </div>
+        <div class="seperator"></div>
+        <div class="section3">
+        <a href="pizza.html">
+            <table align="center">
+                <tr>
+                    <td style="padding: 30px 0px 30px 100px;">
+                        <img src="assets/pizzeria.jpg" alt="menu" width="470px" class="section3_img">
+                    </td>
+                    <td class="section_content">
+                        <br><span class="section_title">Pizzeria</span><br><br>Made the old-fashioned way<br><br><br>
+                    </td>
+                </tr>
+            </table>
+        </a>
+        </div>
+        <div class="seperator"></div>
+        <div class="navigator">
+            <table  align="center">
+                <tr align="center">
+                    <td><a class="navigator_tab" style="border-left: solid #e4e6e7 2px;" href="home.html">Menu</a></td>
+                    <td><a class="navigator_tab" href="coffee.html">Coffee</a></td>
+                    <td><a class="navigator_tab" href="dessert.html">Dessert</a></td>
+                    <td><a class="navigator_tab" href="pizza.html">Pizzeria</a></td>
+                    <td><a class="navigator_tab" href="signup.html">Sign up</a></td>
+                </tr>
+            </table>
+        </div>
+    </body>
+</html>
